@@ -1,0 +1,16 @@
+.partnership-bg {
+    height: 170vh!important;
+}
+
+@media screen and (max-width: 900px) {
+    .partnership-bg {
+        height: 250vh!important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .partnership-bg {
+        height: 300vh!important;
+    }
+
+}

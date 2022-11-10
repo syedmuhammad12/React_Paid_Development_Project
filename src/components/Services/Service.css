@@ -1,0 +1,24 @@
+.card-size {
+    width: 20%!important;
+}
+
+.service-bg {
+    background-image: url(../../assets/background2.jpeg);
+    height: 150vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0px;
+}
+
+.service-bg     h2 {
+    color: #EEDAA7;;
+}
+
+@media screen and (max-width: 750px) {
+     .service-bg {
+        height: 300vh;
+     }   
+}

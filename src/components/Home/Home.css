@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Inter&display=swap');
+
+.home-bg {
+  background-image: url("../../assets/home.jpeg");
+  height: 180vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-heading {
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #F0EAB6;
+    text-align: center;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 58px;
+}
+
+.home-heading span {
+    color: #8BE4A4;
+}
+
+.home-para {
+    margin-top: 50px;
+    width: 60%;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 39px;
+    font-size: 20px;
+}
+
+.values {
+    width: 100%;
+    height: 100%;       
+}
+
+.features {
+    float: right;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+
+.beliefs {
+    background-color: #1B332D;
+    width: 150px;
+    height: 150px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-transform: uppercase;
+}
+
+.beliefs p {
+    color: #EEDAA7;
+    font-weight: 600;
+}
+
+#essence {
+    margin-left: 40px;
+    margin-top: -15px;
+}
+
+#purpose {
+    margin-top: -15px;
+}
+
+.features-text {
+    float: left;
+    margin-left: 40px;
+}
+
+.features-text h3 {
+    color: #8BE4A4;
+    font-weight: 600;
+    line-height: 39px;
+    margin-top: 20%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.features-text p {
+    width: 600px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 700px) {
+    .values {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .features {
+        margin-right: 0px;
+        margin-top: -250px;
+    }
+    .features-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .features-text p{
+        width: 200px;
+    }
+    .home-bg {
+        height: 350vh;
+    }
+    .home-heading {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .features {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .home-bg {
+        height: 370vh;
+    }
+    .features {
+        margin-top: 10px;
+    }
+}
